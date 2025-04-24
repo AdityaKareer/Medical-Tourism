@@ -1,0 +1,25 @@
+backend/
+├── src/
+│   ├── config/
+│   │   ├── database.js
+│   │   └── config.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── hospitalController.js
+│   │   ├── patientController.js
+│   │   └── appointmentController.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Hospital.js
+│   │   ├── Doctor.js
+│   │   ├── Appointment.js
+│   │   └── Treatment.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── hospital.js
+│   │   ├── patient.js
+│   │   └── appointment.js
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   └── errorHandler.js
+│   └── app.js
